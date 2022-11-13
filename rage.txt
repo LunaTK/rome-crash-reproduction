@@ -1,0 +1,868 @@
+yarn run v1.22.11
+$ /Users/lunatk/Devsisters/rome-crash/node_modules/.bin/rome rage
+CLI:
+  Version:              10.0.1
+  Color support:        true
+
+Platform:
+  CPU Architecture:     aarch64
+  OS:                   macos
+
+Environment:
+  ROME_LOG_DIR:         unset
+  NO_COLOR:             unset
+  TERM:                 "xterm-256color"
+
+Rome Configuration:
+  Status:               loaded
+  Formatter disabled:   false
+  Linter disabled:      false
+
+Workspace:
+  Open Documents:       0
+
+Discovering running Rome servers...
+
+Running Rome Server: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+i The client isn't connected to any server but rage discovered this running Rome server.
+
+Server:
+  Version:              10.0.1
+  Name:                 rome_lsp
+  CPU Architecture:     aarch64
+  OS:                   macos
+
+Workspace:
+  Open Documents:       0
+
+Rome Server Log:
+
+! Please review the content of the log file before sharing it publicly as it may contain sensitive information:
+  * Path names that may reveal your name, a project name, or the name of your employer.
+  * Source code
+
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+┐rome_cli::commands::daemon::Running Server{pid=22525}
+├─50ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─51ms INFO rome_lsp::server Starting Rome Language Server...
+├─51ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─51ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─51ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─59ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─63ms INFO rome_lsp::server Starting Rome Language Server...
+├─63ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─63ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─64ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─75ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─92ms INFO rome_lsp::server Starting Rome Language Server...
+├─92ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─92ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─93ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─148ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─150ms INFO rome_lsp::server Starting Rome Language Server...
+├─150ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─150ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─150ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─174147ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─174152ms INFO rome_lsp::server Starting Rome Language Server...
+├─174153ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─174153ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─174154ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─177089ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─181844ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─181847ms INFO rome_lsp::server Starting Rome Language Server...
+├─181847ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─181847ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─181847ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─181861ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─181863ms INFO rome_lsp::server Starting Rome Language Server...
+├─181863ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─181863ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─181863ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─181871ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─181872ms INFO rome_lsp::server Starting Rome Language Server...
+├─181873ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─181873ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─181873ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─181881ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─181882ms INFO rome_lsp::server Starting Rome Language Server...
+├─181882ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─181882ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─181882ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─181890ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─181892ms INFO rome_lsp::server Starting Rome Language Server...
+├─181892ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─181892ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─181892ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─195789ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─195790ms INFO rome_lsp::server Starting Rome Language Server...
+├─195791ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─195791ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─195791ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─399507ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─399509ms INFO rome_lsp::server Starting Rome Language Server...
+├─399510ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─399510ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─399510ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+┐rome_cli::commands::daemon::Running Server{pid=23308}
+├─50ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─52ms INFO rome_lsp::server Starting Rome Language Server...
+├─52ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─52ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─52ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─59ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─60ms INFO rome_lsp::server Starting Rome Language Server...
+├─60ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─61ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─61ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─67ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─68ms INFO rome_lsp::server Starting Rome Language Server...
+├─69ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─69ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─69ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─75ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─76ms INFO rome_lsp::server Starting Rome Language Server...
+├─76ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─76ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─77ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─275771ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─275775ms INFO rome_lsp::server Starting Rome Language Server...
+├─275776ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─275776ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─275776ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─277507ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─277509ms INFO rome_lsp::server Starting Rome Language Server...
+├─277510ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─277510ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─277510ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─277520ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─277523ms INFO rome_lsp::server Starting Rome Language Server...
+├─277524ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─277524ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─277524ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─277531ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─277532ms INFO rome_lsp::server Starting Rome Language Server...
+├─277533ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─277533ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─277533ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─277542ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─277543ms INFO rome_lsp::server Starting Rome Language Server...
+├─277544ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─277544ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─277544ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─277551ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─277553ms INFO rome_lsp::server Starting Rome Language Server...
+├─277553ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─277553ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─277553ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─284583ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─284585ms INFO rome_lsp::server Starting Rome Language Server...
+├─284587ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─284587ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─284587ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─288642ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─294551ms INFO tower_lsp::service::layers shutdown request received, shutting down
+├─294553ms INFO tower_lsp::service::layers exit notification received, stopping
+├─294557ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─294559ms INFO rome_lsp::server Starting Rome Language Server...
+├─294559ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─294559ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─294560ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─297786ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─299633ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─304960ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─323796ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─328269ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─348338ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─348342ms INFO rome_lsp::server Starting Rome Language Server...
+├─348343ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─348343ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─348343ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─351354ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─355871ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─361147ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─392791ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─418560ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─420743ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─443807ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─443809ms INFO rome_lsp::server Starting Rome Language Server...
+├─443810ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─443810ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─443810ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─445119ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─459069ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─463936ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─463938ms INFO rome_lsp::server Starting Rome Language Server...
+├─463941ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─463941ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─463942ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─463950ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─463953ms INFO rome_lsp::server Starting Rome Language Server...
+├─463953ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─463953ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─463953ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─463961ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─463962ms INFO rome_lsp::server Starting Rome Language Server...
+├─463963ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─463963ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─463963ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─463973ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─463977ms INFO rome_lsp::server Starting Rome Language Server...
+├─463978ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─463978ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─463978ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─597228ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─597230ms INFO rome_lsp::server Starting Rome Language Server...
+├─597230ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─597230ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─597231ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─599156ms WARN tower_lsp Got a textDocument/didSave notification, but it is not implemented
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─600590ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─600592ms INFO rome_lsp::server Starting Rome Language Server...
+├─600592ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─600592ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─600593ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─600605ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─600606ms INFO rome_lsp::server Starting Rome Language Server...
+├─600607ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─600607ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─600607ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─600615ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─600616ms INFO rome_lsp::server Starting Rome Language Server...
+├─600617ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─600617ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─600617ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─845715ms INFO rome_lsp::server Starting Rome Language Server...
+├─855965ms INFO rome_lsp::server Starting Rome Language Server...
+├─990742ms INFO rome_lsp::server Starting Rome Language Server...
+├─1032395ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─1032397ms INFO rome_lsp::server Starting Rome Language Server...
+├─1032397ms INFO rome_lsp::server Attempting to load the configuration from 'rome.json' file
+├─1032397ms INFO rome_service::configuration Attempting to load the configuration file at path "/Users/lunatk/Devsisters/rome-crash/rome.json"
+├─┐rome_fs::fs::os::OsFile::read_to_string{}
+├─┘
+├─1032398ms INFO rome_lsp::session Configuration found, and it is valid!
+├─┐rome_js_parser::parse::parse{file_id=FileId(0)}
+├─┘
+├─┐rome_lsp::session::update_workspace_settings{}
+│ ├─┐rome_service::workspace::server::update_settings{params=UpdateSettingsParams { configuration: Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None } }}
+│ │ ├─┐rome_service::settings::merge_with_configuration{configuration=Configuration { files: None, formatter: Some(FormatterConfiguration { enabled: true, format_with_errors: false, indent_style: Tab, indent_size: 2, line_width: LineWidth(80), ignore: None }), linter: Some(LinterConfiguration { enabled: true, rules: Some(Rules { recommended: Some(true), a11y: None, complexity: None, correctness: None, nursery: None, security: None, style: None }), ignore: None }), javascript: None }}
+│ │ ├─┘
+│ ├─┘
+├─┘
+├─1036019ms INFO tower_lsp::service::layers shutdown request received, shutting down
+├─1036036ms INFO tower_lsp::service::layers exit notification received, stopping
+├─1036053ms ERROR tower_lsp::transport failed to encode message: failed to encode response: Socket is not connected (os error 57)
+├─1054870ms INFO rome_lsp::server Starting Rome Language Server...
+
+Done in 0.55s.
