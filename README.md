@@ -31,8 +31,13 @@
 
 2. Open `index.ts`.
 
-3. Move around cursor, and hit Ctrl + S (or Command + S)
+3. Get around with code to see if Rome dies. (it shouldn't)
 
-4. After a while, VSCode shows crash message for Rome.
+4. Uncomment the line 11.
+```
+// callback(fn);
+```
+
+5. After a while, VSCode shows crash message for Rome.
 
 ![screenshot](screenshot.png)
