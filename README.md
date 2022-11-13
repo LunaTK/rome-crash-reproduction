@@ -31,7 +31,7 @@
 
 2. Open `index.ts`.
 
-3. Get around with code to see if Rome dies. (it shouldn't)
+3. Get around with code to see if Rome extension is alive and working.
 
 4. Uncomment the line 11.
 ```
